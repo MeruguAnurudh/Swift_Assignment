@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AB911C1D-94D4-470B-A5C8-260D0C4998D2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2EBD5D9A-7A03-4AB3-A444-D41450E580E5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StoryboardLoginScreen/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "2EBD5D9A-7A03-4AB3-A444-D41450E580E5 - 6f4a18f9aafa3ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StoryboardLoginScreen.ViewController.isPasswordHidden.getter : Swift.Bool"
+                  moduleName = "StoryboardLoginScreen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meruguanurudh/Documents/StoryboardLoginScreen/StoryboardLoginScreen/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "2EBD5D9A-7A03-4AB3-A444-D41450E580E5 - 70820593398ab390"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StoryboardLoginScreen.ViewController.isPasswordHidden.setter : Swift.Bool"
+                  moduleName = "StoryboardLoginScreen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meruguanurudh/Documents/StoryboardLoginScreen/StoryboardLoginScreen/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "95">
+               </Location>
+               <Location
+                  uuid = "2EBD5D9A-7A03-4AB3-A444-D41450E580E5 - 7b3e2b16bac38faf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StoryboardLoginScreen.ViewController.isPasswordHidden.modify : Swift.Bool"
+                  moduleName = "StoryboardLoginScreen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meruguanurudh/Documents/StoryboardLoginScreen/StoryboardLoginScreen/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2EBD5D9A-7A03-4AB3-A444-D41450E580E5 - b7737a2fd98e1b90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StoryboardLoginScreen.ViewController.isPasswordHidden.modify : Swift.Bool with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "StoryboardLoginScreen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meruguanurudh/Documents/StoryboardLoginScreen/StoryboardLoginScreen/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "2EBD5D9A-7A03-4AB3-A444-D41450E580E5 - 700fe6c2e5163d8e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StoryboardLoginScreen.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; StoryboardLoginScreen.ViewController"
+                  moduleName = "StoryboardLoginScreen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meruguanurudh/Documents/StoryboardLoginScreen/StoryboardLoginScreen/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "2EBD5D9A-7A03-4AB3-A444-D41450E580E5 - df761de02b6181d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StoryboardLoginScreen.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;StoryboardLoginScreen.ViewController&gt;"
+                  moduleName = "StoryboardLoginScreen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meruguanurudh/Documents/StoryboardLoginScreen/StoryboardLoginScreen/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "233">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C72564F-C842-485E-BA31-B54A8A59D682"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StoryboardLoginScreen/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2C72564F-C842-485E-BA31-B54A8A59D682 - b1f0fc4b37f87453"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StoryboardLoginScreen.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "StoryboardLoginScreen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meruguanurudh/Documents/StoryboardLoginScreen/StoryboardLoginScreen/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "996">
+               </Location>
+               <Location
+                  uuid = "2C72564F-C842-485E-BA31-B54A8A59D682 - b1f0fc4b37f87432"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StoryboardLoginScreen.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "StoryboardLoginScreen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meruguanurudh/Documents/StoryboardLoginScreen/StoryboardLoginScreen/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "996">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8E7E2A4-06FE-47AB-8063-EAE02438F84D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StoryboardLoginScreen/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "textFieldDidBeginEditing(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
