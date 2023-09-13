@@ -34,22 +34,22 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DVv-JL-Aem">
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DVv-JL-Aem">
                     <rect key="frame" x="34.666666666666657" y="259" width="361" height="50"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="361" id="7u9-Y9-IuK"/>
                         <constraint firstAttribute="height" constant="50" id="kF3-PR-tGg"/>
                     </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HVL-oA-HyO">
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HVL-oA-HyO">
                     <rect key="frame" x="34.666666666666657" y="344" width="361" height="50"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="Gd4-qV-BJk"/>
                         <constraint firstAttribute="width" constant="361" id="tYl-cl-03L"/>
                     </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9R2-O9-1hv">
@@ -91,7 +91,7 @@
                 <constraint firstItem="DVv-JL-Aem" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ldL-KL-Nwz"/>
                 <constraint firstItem="9R2-O9-1hv" firstAttribute="top" secondItem="HVL-oA-HyO" secondAttribute="bottom" constant="60" id="qRd-J5-rsM"/>
             </constraints>
-            <point key="canvasLocation" x="101.3671875" y="19.326500732064421"/>
+            <point key="canvasLocation" x="100.46511627906976" y="19.313304721030043"/>
         </view>
     </objects>
     <resources>

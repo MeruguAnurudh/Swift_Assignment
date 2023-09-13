@@ -12,7 +12,11 @@ class ViewController: UIViewController, LoginDelegate{
     @IBOutlet weak var Login: Login!
     override func viewDidLoad() {
         super.viewDidLoad()
-        Login.delegate = self
+              let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
+               backgroundImage.image = UIImage(named: "background")
+               backgroundImage.contentMode = .scaleAspectFill
+               self.view.insertSubview(backgroundImage, at: 0)
+               Login.delegate = self
 
     }
     @IBAction func loginButtonTapped(_ sender: UIButton) {

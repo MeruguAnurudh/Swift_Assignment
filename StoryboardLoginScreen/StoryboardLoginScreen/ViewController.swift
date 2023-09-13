@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         passwordField.delegate = self
         addUnderline(to: userNameField)
         addUnderline(to: passwordField)
+        loginBtn.layer.cornerRadius = 10 
         loginBtn.isEnabled = false
         userNameField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
         passwordField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .allEditingEvents)
@@ -45,12 +46,9 @@ class ViewController: UIViewController {
     }
     
     @objc func passwordVisibilityButtonTapped() {
-        // Toggle the password visibility and change the button's image
         isPasswordHidden.toggle()
         let imageName = isPasswordHidden ? "eye" : "eye.slash.fill"
         passwordVisibilityBtn.setImage(UIImage(systemName: imageName), for: .normal)
-        
-        // Update the secureTextEntry property of the password field
         passwordField.isSecureTextEntry = isPasswordHidden
     }
     

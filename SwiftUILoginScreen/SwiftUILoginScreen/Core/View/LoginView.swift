@@ -5,6 +5,9 @@
 ////  Created by Merugu Anurudh on 07/09/23.
 ////
 
+
+
+
 import SwiftUI
 
 protocol AuthenticationFormProtocol {
@@ -19,63 +22,71 @@ struct LoginView: View {
 
     var body: some View {
         NavigationStack {
-            VStack {
-
-                Image("sign-in-logo")
+            ZStack {
+                Image("background")
                     .resizable()
-                    .scaledToFill()
-                    .frame(width: 100, height: 120)
-                    .padding(.vertical, 32)
-
-                Spacer().frame(height: 10)
-
-                VStack(spacing: 24) {
-                    NavigationLink(destination: ProfileView(), isActive: $navigateToProfile) {
-                        EmptyView()
-                    }
-                    InputView(text: $email, title: "Username", placeholder: "name@example.com")
-                        .autocapitalization(.none)
-                    HStack {
-                        InputView(text: $password, title: "Password", placeholder: "Enter Your Password", isSecureField: !showPassword)
-                        Button(action: {
-                            showPassword.toggle()
-                        }) {
-                            Image(systemName: showPassword ? "eye.slash" : "eye")
-                                .foregroundColor(.gray)
+                    .ignoresSafeArea()
+                
+                VStack {
+                    Text("Sign In")
+                        .font(.system(size: 40))
+                    
+                    Spacer().frame(height: 20)
+                    
+                    VStack(spacing: 35) {
+                        NavigationLink(destination: ProfileView(), isActive: $navigateToProfile) {
+                            EmptyView()
                         }
-                        .padding(.trailing, 8)
+                        InputView(text: $email, placeholder: "Username")
+                            .autocapitalization(.none)
+                            .padding(.bottom, -20)
+                        
+                        Divider().background(.black)
+                        HStack {
+                            InputView(text: $password, placeholder: "Password", isSecureField: !showPassword)
+                                .padding(.bottom, -30)
+                            Button(action: {
+                                showPassword.toggle()
+                            }) {
+                                Image(systemName: showPassword ? "eye.slash" : "eye")
+                                    .foregroundColor(.gray)
+                            }
+                            .padding(.trailing, 8)
+                            .padding(.bottom, -30)
+                        }
+                        Divider().background(.black)
+                    }
+                    .padding(.horizontal)
+                    
+                    Spacer().frame(height: 60)
+                    
+                    Button {
+                        navigateToProfile = true
+                        print(email)
+                        print(password)
+                    } label: {
+                        HStack {
+                            Text("Login")
+                                .fontWeight(.semibold)
+                            Image(systemName: "arrow.right")
+                        }
+                        .foregroundColor(.white)
+                        .frame(width: UIScreen.main.bounds.width - 182, height: 48)
+                    }
+                    .background(Color(.systemBlue))
+                    .disabled(!formIsValid)
+                    .opacity(formIsValid ? 1.0 : 0.5)
+                    .cornerRadius(10)
+                    
+                    Spacer().frame(height: 50)
+                    
+                    NavigationLink(destination: ForgotPasswordView()) {
+                        Text("Forgot Password?")
+                            .foregroundColor(.blue)
                     }
                 }
-                .padding(.horizontal)
-
-                Spacer().frame(height: 50)
-
-                Button {
-                    navigateToProfile = true
-                    print(email)
-                    print(password)
-                } label: {
-                    HStack {
-                        Text("Login")
-                            .fontWeight(.semibold)
-                        Image(systemName: "arrow.right")
-                    }
-                    .foregroundColor(.white)
-                    .frame(width: UIScreen.main.bounds.width - 32, height: 48)
-                }
-                .background(Color(.systemBlue))
-                .disabled(!formIsValid)
-                .opacity(formIsValid ? 1.0 : 0.5)
-                .cornerRadius(10)
-
-                Spacer().frame(height: 50) 
-
-                NavigationLink(destination: ForgotPasswordView()) {
-                    Text("Forgot Password?")
-                        .foregroundColor(.blue)
-                }
+                .padding()
             }
-            .padding()
         }
     }
 }
@@ -92,5 +103,10 @@ struct LoginView_Previews: PreviewProvider {
         LoginView()
     }
 }
+
+
+
+
+
 
 
